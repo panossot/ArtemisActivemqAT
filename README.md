@@ -25,6 +25,15 @@ How to execute for the master branch of https://github.com/apache/activemq-artem
 7. mvn clean install -Dmaster
 
 
+How to execute with 2.7.0 release of https://github.com/apache/activemq-artemis :
+
+1. git clone https://github.com/apache/activemq-artemis.git -b 2.7.0
+2. cd activemq-artemis
+3. mvn clean install -DskipTests
+4. export ACTIVEMQ_BRANCH_VERSION=2.7.0
+5. git clone https://github.com/panossot/ArtemisActivemqAT.git
+6. cd ArtemisActivemqAT
+7. mvn clean install -Dmaster
 
 
 How to execute for 2.6.3.jbossorg-x branch of https://github.com/rh-messaging/jboss-activemq-artemis.git :
