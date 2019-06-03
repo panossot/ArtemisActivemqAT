@@ -19,7 +19,7 @@ How to execute for the master branch of https://github.com/apache/activemq-artem
 1. git clone https://github.com/apache/activemq-artemis.git
 2. cd activemq-artemis
 3. mvn clean install -DskipTests
-4. export ACTIVEMQ_BRANCH_VERSION=2.8.0-SNAPSHOT (version of the master branch)
+4. export ACTIVEMQ_BRANCH_VERSION=(version of the master branch)
 5. git clone https://github.com/panossot/ArtemisActivemqAT.git
 6. cd ArtemisActivemqAT
 7. mvn clean install -Dmaster
