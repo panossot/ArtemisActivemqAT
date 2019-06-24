@@ -41,7 +41,7 @@ import org.junit.Test;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
 
-@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/activemq/src/main/java"})
+@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/activemq/src/main/java#2.6.3*2.9.0"})
 public class AcknowledgementTest extends JMSTestCase {
 
    /**
