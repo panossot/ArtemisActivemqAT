@@ -46,7 +46,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.jboss.eap.additional.testsuite.annotations.EapAdditionalTestsuite;
 
-@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/activemq/src/main/java"})
+@EapAdditionalTestsuite({"modules/testcases/jdkAll/master/activemq/src/main/java#2.6.3*2.11.0"})
 public class ConnectionFactoryTest extends JMSTestCase {
 
    private final Random random = new Random();
